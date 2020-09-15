@@ -1,7 +1,5 @@
 package BaseEx;
 
-import java.util.Objects;
-
 public abstract class Orbital {
     String name;
     String target;
@@ -23,11 +21,11 @@ public abstract class Orbital {
         this.target = target;
     }
 
-    public int getDistanceFromSun() {
+    public int getDistanceFromTarget() {
         return distanceFromTarget;
     }
 
-    public void setDistanceFromSun(int distanceFromSun) {
+    public void setDistanceFromTarget(int distanceFromSun) {
         this.distanceFromTarget = distanceFromSun;
     }
 
